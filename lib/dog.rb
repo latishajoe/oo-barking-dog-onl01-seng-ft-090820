@@ -1,9 +1,16 @@
 # Your code goes here!
 class Dog
-  def bark
-    puts "Woof!"
-  end
-end
+  def name=(dogs_name)
+    @name = dogs_name
+  end 
 
-fido = Dog.new
-fido.bark
+  def @name 
+    @name 
+  end 
+end 
+
+class Dog 
+  def bark 
+    puts "Woof!"
+  end 
+end 
